@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/calc.css" />
+    </head>
+
+    <body>
+
+        <div id="calc_enclosure">
+          
+            <div id="calc_display">
+                0
+            </div>
+
+            <div id="calc_buttons">
+                <div id="digit_0" onClick="pressDigit(0)">0</div>
+                <div id="digit_1" onClick="pressDigit(1)">1</div>
+                <div id="digit_2" onClick="pressDigit(2)">2</div>
+                <div id="digit_3" onClick="pressDigit(3)">3</div>
+                <div id="digit_4" onClick="pressDigit(4)">4</div>
+                <div id="digit_5" onClick="pressDigit(5)">5</div>
+                <div id="digit_6" onClick="pressDigit(6)">6</div>
+                <div id="digit_7" onClick="pressDigit(7)">7</div>
+                <div id="digit_8" onClick="pressDigit(8)">8</div>
+                <div id="digit_9" onClick="pressDigit(9)">9</div>
+                <div id="symbol_plus" onClick="pressOperator(1)">+</div>
+                <div id="symbol_minus" onClick="pressOperator(2)">-</div>
+                <div id="symbol_multiply" onClick="pressOperator(3)">x</div>
+                <div id="symbol_divide" onClick="pressOperator(4)">/</div>
+                <div id="symbol_equal" onClick="pressEquals()">=</div>
+                <div id="symbol_dot">.</div>
+                <div id="function_clear" onclick="pressClear()">clear</div>
+                
+            </div>     
+
+
+        </div>
+
+        <script src="assets/scripts/calc.js"></script>
+    </body>
+
+</html>
